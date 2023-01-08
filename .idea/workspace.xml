@@ -1,13 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c174314d-5961-4dd1-9380-daaff57dd9a5" name="Default Changelist" comment="" />
+    <list default="true" id="c174314d-5961-4dd1-9380-daaff57dd9a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/Frame.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/Rectangle 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/Rectangle 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/Rectangle 6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/Rectangle 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/Rectangle 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/Vector (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/row.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Home/Фон.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/Group 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/Vector (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/YANKI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/YANKI2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Catalog/BreadCrumbs/BreadCrumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Catalog/Catalog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/CatalogFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogRow/CatalogRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Catalog/SideBar/SideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Category/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Collection/Collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Collection/Swiper/Swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Collection/SwiperCards/SwiperCards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Know/Know.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/catalogRow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/category.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/collection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/know.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="yanki" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2JwrzHjAh3wH7NKfSWBQuR6QKtG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +82,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="textmate" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/Home" />
+      <recent name="$PROJECT_DIR$/src/assets/header" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,10 +104,45 @@
       <option name="presentableId" value="Default" />
       <updated>1673000246816</updated>
       <workItem from="1673000248541" duration="127000" />
+      <workItem from="1673000382434" duration="253000" />
+      <workItem from="1673000640075" duration="27477000" />
+      <workItem from="1673214005576" duration="2718000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673003553333">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.807@0.25.1440.807" timestamp="1673003553333" />
+    <state x="427" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1673215906136">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="427" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.805@0.25.1440.805" timestamp="1673215906136" />
+    <state x="427" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.807@0.25.1440.807" timestamp="1673206544715" />
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1673216165425">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.805@0.25.1440.805" timestamp="1673216165425" />
+    <state x="458" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.809@0.25.1440.809" timestamp="1673000664781" />
+    <state x="309" y="27" key="CommitChangelistDialog2" timestamp="1673182580279">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="309" y="27" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1673182580278" />
+    <state x="229" y="63" key="SettingsEditor" timestamp="1673003535856">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="229" y="63" key="SettingsEditor/0.25.1440.807@0.25.1440.807" timestamp="1673003535855" />
+    <state x="506" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1673182590345">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="506" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.807@0.25.1440.807" timestamp="1673182590345" />
+    <state x="320" y="90" key="scopes" timestamp="1673206581136">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="320" y="90" key="scopes/0.25.1440.807@0.25.1440.807" timestamp="1673206581136" />
   </component>
 </project>

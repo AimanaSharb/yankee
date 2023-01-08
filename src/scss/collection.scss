@@ -1,0 +1,46 @@
+.collection{
+  background: url("../assets/Home/Фон.png") no-repeat;
+  background-size: cover;
+
+
+  &__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 1140px;
+    height: 900px;
+    & a{
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      color: #FFFFFF;
+      &::after{
+        content: url("../assets/header/Vector (1).svg");
+        position: absolute;
+        top: -2px;
+        right: -20px;
+      }
+    }
+  }
+  &__title{
+    font-size: 46px;
+    line-height: 54px;
+    color: #FFFFFF;
+    position: relative;
+    opacity: 0.85;
+    &::after{
+      content: url("../assets/Home/Rectangle 6.svg");
+      position: absolute;
+      bottom: -30px;
+      left:130px;
+    }
+
+  }
+
+}

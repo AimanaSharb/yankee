@@ -1,0 +1,101 @@
+.header {
+
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__list {
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    column-gap: 30px;
+
+    & a {
+      color: #252525;
+
+    }
+  }
+
+  &__langs {
+    display: flex;
+    column-gap: 43px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+
+  &__lang {
+    position: relative;
+    font-size: 18px;
+    line-height: 21px;
+
+    color:#252525;
+
+    &::after {
+      content: url("../assets/header/Vector (1).svg");
+      position: absolute;
+      right: -17px;
+      top: -2px;
+
+    }
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+    padding: 24px 0;
+
+  }
+
+  &__search-icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+  }
+
+  &__acc-icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+  }
+
+  &__heart-icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+  }
+
+  &__cart-icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+  }
+
+
+
+}
+
+.header__home{
+  position: absolute;
+  width: 100%;
+  &-list{
+    & a{
+      color: white;
+    }
+  }
+  &-lang {
+    position: relative;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+}
+
+
+
+
+

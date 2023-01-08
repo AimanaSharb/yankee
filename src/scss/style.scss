@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+
+}
+
+.container{
+  max-width: 1440px;
+  padding: 0 150px;
+  margin: 0 auto;
+
+}
+
+
+@import "header";
+@import "collection";
+@import "category";
+@import "know";
+@import "footer";
+@import "breadcrumbs";
+@import "sidebar";
+@import "catalogRow";

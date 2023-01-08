@@ -1,0 +1,57 @@
+.know{
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &__title{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #252525;
+
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 20px;
+    row-gap: 20px;
+
+  }
+  & input{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: center;
+
+    color: rgba(37, 37, 37, 0.5);
+    border: 0.5px solid #252525;
+    padding:16px 215px;
+
+  }
+  .btn{
+    background: #E0BEA2;
+    padding: 16px 215px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    border: none;
+  }
+
+
+  &__txt{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #252525;
+    max-width: 600px;
+  }
+}
+
