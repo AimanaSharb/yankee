@@ -1,0 +1,458 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "title": "Slim Fit Cable-Knit Polo Shirt",
+      "brand": "Polo",
+      "price": 168,
+      "img": "./shop/t-shirts/poloshirt2.jpeg",
+      "type": "t-shirt",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "size": "XL"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Classic Fit Mesh Polo Shirt",
+      "brand": "Polo",
+      "price": 150,
+      "type": "t-shirt",
+      "img": "./shop/t-shirts/blueshirt1.jpeg",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "XS"
+        },
+        {
+          "id": 2,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "size": "L"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Slim Fit Cable-Knit Polo Shirt White",
+      "brand": "Polo",
+      "type": "t-shirt",
+      "price": 140,
+      "img": "./shop/t-shirts/poloshirtwhite.jpeg",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "XS"
+        },
+        {
+          "id": 2,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "size": "L"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "SKORT WITH 'CD' BUTTON",
+      "brand": "Dior",
+      "type": "skirt",
+      "price": 420,
+      "img": "./shop/skirts/skirts.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "34"
+        },
+        {
+          "id": 2,
+          "size": "36"
+        },
+        {
+          "id": 3,
+          "size": "38"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "TAILORED TENNIS MIDI SKIRT",
+      "brand": "Louis Vuitton",
+      "type": "skirt",
+      "price": 2360,
+      "img": "./shop/skirts/louisvuittonWhite.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "34"
+        },
+        {
+          "id": 2,
+          "size": "36"
+        },
+        {
+          "id": 3,
+          "size": "38"
+        },
+        {
+          "id": 4,
+          "size": "40"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "MONOGRAM DENIM MINI WRAP SKIRT",
+      "brand": "Louis Vuiton",
+      "type": "skirt",
+      "price": 1910,
+      "img": "./shop/skirts/louis-vuittonskirt.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "34"
+        },
+        {
+          "id": 2,
+          "size": "36"
+        },
+        {
+          "id": 3,
+          "size": "38"
+        },
+        {
+          "id": 4,
+          "size": "40"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Gucci Wool jacket",
+      "brand": "Gucci",
+      "type": "jacket",
+      "price": 2250,
+      "img": "./shop/coat/Guccicoat.avif",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "XS"
+        },
+        {
+          "id": 3,
+          "size": "M"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "ZIPPED-HOOD PEACOAT",
+      "brand": "Dior",
+      "type": "jacket",
+      "price": 1780,
+      "img": "./shop/coat/diorcoat.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "XS"
+        },
+        {
+          "id": 3,
+          "size": "L"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "3-IN-1 MACROCANNAGE TRENCH COAT",
+      "brand": "Dior",
+      "type": "jacket",
+      "price": 2890,
+      "img": "./shop/coat/diorcoat2.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "XS"
+        },
+        {
+          "id": 3,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "size": "XL"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "SLEEVELESS CROPPED MACROCANNAGE VEST",
+      "brand": "Dior",
+      "type": "coat",
+      "price": 1900,
+      "img": "./shop/jackets/diorjacket.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "XS"
+        },
+        {
+          "id": 3,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "size": "XL"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "CROPPED MACROCANNAGE PEACOAT",
+      "brand": "Dior",
+      "type": "coat",
+      "price": 3000,
+      "img": "./shop/jackets/diorjacket2.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "XS"
+        },
+        {
+          "id": 3,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "size": "XL"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "MACROCANNAGE SCARF JACKET",
+      "brand": "Dior",
+      "type": "coat",
+      "price": 4200,
+      "img": "./shop/jackets/diorjacket3.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "XS"
+        },
+        {
+          "id": 3,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "size": "XL"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Multicolour sequin one-shoulder long dress",
+      "brand": "Dolce Gabbana",
+      "type": "dress",
+      "price": 4150,
+      "img": "./shop/dresses/dolcegabbanadress.jpeg",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "36"
+        },
+        {
+          "id": 2,
+          "size": "40"
+        },
+        {
+          "id": 3,
+          "size": "42"
+        },
+        {
+          "id": 4,
+          "size": "44"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "One-shoulder lamé jersey long dress",
+      "brand": "Dolce Gabbana",
+      "type": "dress",
+      "price": 3500,
+      "img": "./shop/dresses/dolcegabbana2.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "36"
+        },
+        {
+          "id": 2,
+          "size": "40"
+        },
+        {
+          "id": 3,
+          "size": "42"
+        },
+        {
+          "id": 4,
+          "size": "44"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "D-RING TROMPE L’OEIL SWEATER DRESS",
+      "brand": "Louis Vuitton",
+      "type": "dress",
+      "price": 3200,
+      "img": "./shop/dresses/louis-vuittondress.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "36"
+        },
+        {
+          "id": 2,
+          "size": "40"
+        },
+        {
+          "id": 3,
+          "size": "42"
+        },
+        {
+          "id": 4,
+          "size": "44"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Essential Long-Sleeve Waffle Polo",
+      "brand": "Abercrombie",
+      "type": "top",
+      "price": 40,
+      "img": "./shop/tops/abercrombietop.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "XS"
+        },
+        {
+          "id": 3,
+          "size": "M"
+        },
+        {
+          "id": 4,
+          "size": "L"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Fabric V-Neck Top",
+      "brand": "Abercrombie",
+      "type": "top",
+      "price": 40,
+      "img": "./shop/tops/abercrombietop2.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "size": "XS"
+        },
+        {
+          "id": 3,
+          "size": "M"
+        },
+        {
+          "id": 4,
+          "size": "L"
+        },
+        {
+          "id": 5,
+          "size": "XL"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Long-Sleeve Hardware Cutout Bodysuit",
+      "brand": "Abercrombie",
+      "type": "top",
+      "price": 30,
+      "img": "./shop/tops/abercrombietop3.webp",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "M"
+        },
+        {
+          "id": 2,
+          "size": "L"
+        },
+        {
+          "id": 3,
+          "size": "XL"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "feknkfen@gmail.com",
+      "password": "dskfndknfknf",
+      "id": 1
+    }
+  ],
+  "favourites": [],
+  "likes": []
+
+}

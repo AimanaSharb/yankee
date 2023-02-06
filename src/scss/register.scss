@@ -1,0 +1,94 @@
+.register{
+  height: 100vh;
+  background: url("../assets/Home/Фон.png") no-repeat;
+  background-size: cover;
+
+
+  &__toLogin{
+    & a{
+      font-size: 16px;
+      line-height: 19px;
+      text-decoration-line: underline;
+      color: #fffef6;
+    }
+
+  }
+  &__back{
+
+& a{
+  font-size: 16px;
+  color: #fffef6;
+}
+
+  }
+
+  &-footer{
+    display: none;
+  }
+
+  &__content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    row-gap: 30px;
+  }
+
+  &__title{
+    font-size: 30px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+
+  &__btn{
+    display:flex;
+    width:400px ;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+}
+
+.input{
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  outline: none;
+  padding: 0 20px ;
+  cursor: pointer;
+
+}
+
+
+.password{
+  &::after{
+    content: url("../assets/password-eye.svg");
+    position: absolute;
+  }
+}
+
+.auth{
+  height: 100vh;
+  background: url("../assets/Home/Фон.png") no-repeat;
+  background-size: cover;
+  &__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & a{
+      font-size: 16px;
+      line-height: 19px;
+      text-decoration-line: underline;
+      color: #fffef6;
+    }
+  }
+
+}

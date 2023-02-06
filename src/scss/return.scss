@@ -1,0 +1,36 @@
+.return{
+  padding: 0 0 270px;
+  &__title{
+    font-size: 20px;
+    line-height: 23px;
+    color: #252525;
+  }
+
+  &__desc{
+    font-size: 16px;
+    line-height: 19px;
+    color: #252525;
+    margin: 20px 0 10px;
+  }
+
+  &__row{
+    display: flex;
+    text-align: center;
+    column-gap: 30px;
+    margin-top:80px ;
+    flex-wrap: wrap;
+
+  }
+
+  &__card{
+    width: calc(16.66666% - 25px);
+    &-desc{
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #252525;
+      margin-top: 20px;
+
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.accordion{
+
+  &__header{
+    font-size: 16px;
+    line-height: 19px;
+    color: #252525;
+
+  }
+
+  &__item-top{
+    border-bottom: 0.3px solid #252525;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    column-gap: 10px;
+    & span img{
+      transform: rotate(90deg);
+    }
+
+
+
+
+  }
+
+
+
+  &__item-bot{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    color: #252525;
+  }
+
+
+
+
+}
+
+.close{
+  & img{
+    transform: rotate(180deg);
+  }
+}

@@ -1,4 +1,5 @@
 .sidebar{
+  width: 25%;
   &__title{
     font-size: 20px;
     line-height: 23px;
@@ -13,6 +14,13 @@
       font-size: 17px;
       line-height: 19px;
       color: #252525;
+      cursor: pointer;
+      &:hover{
+        color: #E0BEA2;
+      }
+      &.active{
+        color: #E0BEA2;
+      }
     }
   }
 }

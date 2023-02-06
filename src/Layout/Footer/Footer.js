@@ -3,11 +3,13 @@ import {RiInstagramLine} from 'react-icons/ri';
 import {RiTelegramLine} from 'react-icons/ri';
 import {Link} from "react-router-dom"
 import {IconContext} from "react-icons";
+import {useLocation} from "react-router"
 
 
 const Footer = () => {
+    const location = useLocation()
     return (
-        <footer className="footer">
+        <footer className={location.pathname === '/register' ? 'register-footer' : 'footer'} >
             <div className="container">
 
                 <div className="footer__content">
@@ -23,9 +25,9 @@ const Footer = () => {
 
                     <div className="footer__card">
                         <h3 className="footer__card-title">ПОЛЕЗНОЕ</h3>
-                        <Link>Оплата и доставка
+                        <Link to='/pay'>Оплата и доставка
                         </Link>
-                        <Link>
+                        <Link to='/return'>
                             Условия возврата
                         </Link>
                         <Link>

@@ -1,18 +1,35 @@
-.breadcrumbs{
+.breadcrumbs {
   display: flex;
   column-gap: 15px;
-  padding: 40px 0 30px ;
-  &__items{
+  padding: 10px 0 30px;
+
+  &__item {
     font-size: 16px;
     line-height: 19px;
     color: #252525;
     position: relative;
-    &:nth-child(1){
-      &::before{
+
+    &:nth-child(2) {
+      &::before {
         content: url("../assets/Home/Vector (1).svg");
         position: absolute;
+        left: -10px;
       }
+    }
 
+    &:nth-child(3) {
+      &::before {
+        content: url("../assets/Home/Vector (1).svg");
+        position: absolute;
+        left: -10px;
+      }
+    }
+    &:nth-child(4) {
+      &::before {
+        content: url("../assets/Home/Vector (1).svg");
+        position: absolute;
+        left: -10px;
+      }
     }
   }
 }
