@@ -33,7 +33,7 @@ const BreadCrumbs = () => {
         <ul className="breadcrumbs">
             <li className="breadcrumbs__item">Главная</li>
 
-            <li className="breadcrumbs__item">{location.pathname === '/catalog' || location.pathname === `/catalog/${product.id}`  ? 'Каталог' : location.pathname === '/return' ? 'Возврат' : location.pathname === '/pay' ? 'Оплата и доставка' : ''}</li>
+            <li className="breadcrumbs__item">{location.pathname === '/catalog' || location.pathname === `/catalog/${product.id}`  ? 'Каталог' : location.pathname === '/return' ? 'Возврат' : location.pathname === '/pay' ? 'Оплата и доставка' : location.pathname === '/like' ? 'Избранное' : ''}</li>
             {
                 filter.type === 'coat' ? <li className="breadcrumbs__item">Пальто
                 </li> :  filter.type === 'jacket' ? <li className="breadcrumbs__item">Пуховики и жилеты

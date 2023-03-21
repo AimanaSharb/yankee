@@ -5,7 +5,7 @@ export const getLikes = createAsyncThunk(
     'like/getLike',
     async({rejectWithValue})=>{
         try {
-            const res = await axios.post(`http://localhost:4444/likes`)
+            const res = await axios(`http://localhost:4444/likes`)
             if(res.statusText !== 'OK'){
                 throw new Error('Server error')
             }
@@ -20,23 +20,21 @@ export const getLikes = createAsyncThunk(
 
 
 
-const initialState = {
-    likeItems:[],
-    likeTotalQuantity:0,
-    likeTotalAmount:0,
-    status:'',
-    error:''
-
-
-}
-
 const likeSlice =  createSlice({
     name:"like",
-    initialState,
+    initialState:{
+        likes:[],
+        dataLength:0,
+        status:'',
+        error:''
+    },
     reducers:{
-        addToLike(state, action){
-            state.likeItems.push(action.payload)
+        deleteLikeItem:(state, action)=>{
+           const itemId = action.payload
+            state.likes = state.likes.filter((item)=> item.id !==itemId)
         }
+
+
     },
     extraReducers:{
         [getLikes.pending] : (state,action) => {
@@ -50,12 +48,12 @@ const likeSlice =  createSlice({
         [getLikes.fulfilled] : (state,action) => {
             state.status = 'resolve'
             state.error = ''
-            state.likeItems = action.payload
+            state.likes = action.payload
         }
     }
 
 })
 
 
-export const {addToLike} = likeSlice.actions
+export const {deleteLikeItem} = likeSlice.actions
 export default likeSlice.reducer

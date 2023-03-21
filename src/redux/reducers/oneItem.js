@@ -28,7 +28,7 @@ const oneItem = createSlice({
         product: {},
         dataLength: 0,
         status: '',
-        error: ''
+        error: '',
     },
     reducers:{},
 

@@ -47,12 +47,12 @@ const Header = () => {
                                 <VscAccount/>
                             </IconContext.Provider>
                         </Link>
-                        <li >
+                        <Link to="/like">
 
                             <IconContext.Provider value={{className: `${location.pathname === '/' ? 'header-icon' : 'icon'}` }}>
                                 <RiHeartLine/>
                             </IconContext.Provider>
-                        </li>
+                        </Link>
                         <Link>
                             <IconContext.Provider value={{ className: `${location.pathname === '/' ? 'header-icon' : 'icon'}` }}>
                                 <FiShoppingCart/>

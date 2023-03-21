@@ -15,6 +15,9 @@
 
     & a {
       color: #252525;
+      &:hover{
+        color: #E0BEA2;
+      }
 
     }
   }
@@ -31,7 +34,9 @@
     position: relative;
     font-size: 18px;
     line-height: 21px;
-
+    &:hover{
+      color: #E0BEA2;
+    }
     color:#252525;
 
     &::after {
@@ -70,6 +75,9 @@
   width: 30px;
   height: 30px;
   color: #E0BEA2;
+  &:hover{
+    color: #65513a;
+  }
 
 }
 

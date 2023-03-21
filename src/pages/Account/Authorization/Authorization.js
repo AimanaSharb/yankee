@@ -4,13 +4,9 @@ import {Link, useNavigate} from "react-router-dom";
 
 const Authorization = () => {
 
-    const loginUser = (e) =>{
-        e.preventDefault()
-        let newUser = {
-            email:e.target[0].value,
-            password: e.target[1].value
-        }
-        console.log(newUser)
+    const loginUser = (data) =>{
+
+
 
     }
 

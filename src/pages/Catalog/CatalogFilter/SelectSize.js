@@ -4,7 +4,6 @@ import {useEffect} from "react";
 import {getShop} from "../../../redux/reducers/shop";
 
 
-
 export default function SelectSize() {
 
 
@@ -27,28 +26,13 @@ export default function SelectSize() {
 
     return (
         <div className="selectSize">
-            {
+            {/*<select name="sizes" id="">*/}
 
-                data.map((item)=>{
-                    // if (item.type === 't-shirt' || item.type === 'top' || item.type === 'coat' || item.type === 'jacket'){
-                    //      return( <select className="selectSize__select" name="size" id="size">
-                    //          <option selected disabled>Size</option>
-                    //          <option className="selectSize__option" value={item.sizes.size}>{item.sizes.size}</option>
-                    //      </select>)
-                    // } else{
-                    //     return ''
-                    // }
+            {/*</select>*/}
 
-
-                })
-
-
-
-
-
-            }
 
 
         </div>
     );
 }
+
