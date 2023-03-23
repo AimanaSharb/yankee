@@ -22,24 +22,20 @@ export const getUsers = createAsyncThunk(
 const usersSlice = createSlice({
     name:"users",
     initialState:{
-        user:{
+        users:{
             email:'',
-            password:''
-        },
-        dataLength:0,
-        filter: {},
-        status:'',
-        error:''
+            cart:[],
+            likes:[]
+        }
     },
     reducers: {
 
         loginAccount: (state, action) =>{
-            state.user=action.payload
+            state.users=action.payload
         },
         logoutAccount:(state, action)=>{
-            state.user={
-                email:'',
-                password:''
+            state.users={
+                email: ''
             }
         }
     },
@@ -55,7 +51,7 @@ const usersSlice = createSlice({
         [getUsers.fulfilled] : (state,action) => {
             state.status = 'resolve'
             state.error = ''
-            state.user = action.payload
+            state.users = action.payload
         }
     }
 })

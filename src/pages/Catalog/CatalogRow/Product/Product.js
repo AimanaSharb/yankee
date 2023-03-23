@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import img from "../../../../assets/Home/row.png";
 import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {getShop} from "../../../../redux/reducers/shop";
@@ -10,41 +9,39 @@ import {AiOutlineHeart, AiFillHeart} from 'react-icons/ai'
 
 const Product = ({product}) => {
     const dispatch = useDispatch()
-    const {data,status, error,  filter} = useSelector((store)=>store.shop)
+    const {filter} = useSelector((store)=>store.shop)
 
-    useEffect(()=>{
-        dispatch(getShop(filter))
 
-    },[filter.type])
+    //
+    // useEffect(()=>{
+    //     dispatch(getShop(filter))
+    //
+    // },[filter.type, filter.search])
 
     const [imageChange, setImageChange] = useState(false)
 
-
-    const handleAddToLike = (arr, product) =>{
-
-        for (let i = 0; i < arr.length; i++){
-            if(arr[i].id !== product.id){
-                return (
-                    axios.post('http://localhost:4444/likes', product)
-                    .then((res)=>res.json)
-                    .catch((err)=>console.log(err.message)))
-            } else {
-                console.log(false)
-            }
-        }
-    }
+    //
+    // const handleAddToLike = (arr, product) =>{
+    //     likes.map((oneLike)=>{
+    //         if (product.id !== oneLike.id){
+    //             axios.post("http://localhost:4444/likes", product)
+    //                 .then((res)=>console.log(res))
+    //                 .catch((err)=>console.log(err))
+    //         }
+    //     })
+    // }
 
 
     return (
         <>
 
-        <div key={product.id} className="catalog__card">
-                        <div className="catalog__card-like" onClick={()=> handleAddToLike(product)}><span className="like__card-like"></span></div>
+        <div  className="catalog__card">
+                        <div  className="catalog__card-like"><span className="like__card-like"></span></div>
 
                         {     product.images.length > 1 ?
                             <Link onMouseEnter={()=> setImageChange(true)} onMouseOut={()=> setImageChange(false)} to={`/catalog/${product.id}`}  >
                                 {
-                                    imageChange == false ?  <img src={product.images[0].img} key={'asdasd'} alt="" className="catalog__card-img"/>
+                                    imageChange === false ?  <img src={product.images[0].img} key={'asdasd'} alt="" className="catalog__card-img"/>
                                         : <img src={product.images[1].img}  key={'asdasd'} alt="" className="catalog__card-img"/>}
 
                             </Link> : <Link>

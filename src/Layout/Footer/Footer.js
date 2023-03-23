@@ -40,7 +40,7 @@ const Footer = () => {
 
                     <div className="footer__card">
                         <h3 className="footer__card-title">ПОКУПАТЕЛЮ</h3>
-                        <Link>Избранное</Link>
+                        <Link to='/like'>Избранное</Link>
                         <Link>Публичная оферта</Link>
                         <Link>Политика конфиденциальности</Link>
                     </div>

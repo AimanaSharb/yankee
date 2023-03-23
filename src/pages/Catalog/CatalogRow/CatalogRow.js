@@ -15,8 +15,7 @@ const CatalogRow = () => {
     useEffect(()=>{
         dispatch(getShop(filter))
 
-    },[filter.type])
-
+    },[filter.type, filter.brand, filter.search])
 
 
 

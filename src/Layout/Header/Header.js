@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from "react-router-dom"
 import logo from "../../assets/header/YANKI.svg"
 import {HiMenuAlt2} from "react-icons/hi"
@@ -9,11 +9,26 @@ import {CgSearch} from "react-icons/cg";
 import {VscAccount} from "react-icons/vsc";
 import {RiHeartLine} from "react-icons/ri";
 import {FiShoppingCart} from "react-icons/fi";
-
+import {useSelector, useDispatch} from "react-redux";
+import {logoutAccount} from "../../redux/reducers/users";
+import SearchLine from "../../components/SearchLine";
+import {changeSearch} from "../../redux/reducers/shop";
+import {useTranslation} from "react-i18next";
 
 
 const Header = () => {
     let location = useLocation()
+    const {users} = useSelector( store => store.users)
+    const dispatch = useDispatch()
+    const styleForExit = {fontSize:"20px", color: "#E0BEA2" }
+    const styleForExitHome = {fontSize:"20px", color: "white" }
+    const [search, setSearch] = useState(false)
+    const {t, i18n} = useTranslation()
+
+    const changeLanguage= (lang) =>{
+        i18n.changeLanguage(lang)
+    }
+
 
     return (
         <header className={`header ${location.pathname === '/' ? 'header__home'  : ''}`}>
@@ -32,21 +47,43 @@ const Header = () => {
                     </Link>
 
                     <ul className="header__langs">
-                        <li className={`header__lang ${location.pathname === '/' ? 'header__home-lang': ''}`}>RU</li>
-                        <li className={`header__lang ${location.pathname === '/' ? 'header__home-lang':''}`}>UAH</li>
+                        <li
+                            onClick={()=>{
+                            changeLanguage('en')}}
+                            className={`header__lang ${location.pathname === '/' ? 'header__home-lang': ''}`}>RU</li>
+                        <li
+                            onClick={()=>{
+                                changeLanguage('ru')}}
+                            className={`header__lang ${location.pathname === '/' ? 'header__home-lang':''}`}>UAH</li>
                     </ul>
                     <ul className="header__icons">
 
-                        <li>
-                            <IconContext.Provider value={{className:`${location.pathname === '/' ? 'header-icon' : 'icon'}`}}>
-                                <CgSearch/>
-                            </IconContext.Provider>
+                        <li onClick={()=> setSearch(true)}>
+                            {
+                                search === true && location.pathname === '/catalog' ?   <SearchLine/> :
+
+                                    <Link to='/catalog'>
+                                        <IconContext.Provider value={{className:`${location.pathname === '/' ? 'header-icon' : 'icon'}`}}>
+                                        <CgSearch/>
+                                    </IconContext.Provider>
+                                    </Link>
+                            }
+
                         </li>
-                        <Link to="/login">
-                            <IconContext.Provider value={{className: `${location.pathname === '/' ? 'header-icon' : 'icon'}` }}>
-                                <VscAccount/>
-                            </IconContext.Provider>
-                        </Link>
+                        {
+                            users.email.length ?
+                                <Link to="/"
+                                      style={location.pathname === '/' ? styleForExitHome : styleForExit }
+                                      onClick={()=>{
+                                    dispatch(logoutAccount())
+                                    localStorage.removeItem('users')
+                                }} >Exit</Link> :
+                                <Link to="/login">
+                                <IconContext.Provider value={{className: `${location.pathname === '/' ? 'header-icon' : 'icon'}` }}>
+                                    <VscAccount/>
+                                </IconContext.Provider>
+                            </Link>
+                        }
                         <Link to="/like">
 
                             <IconContext.Provider value={{className: `${location.pathname === '/' ? 'header-icon' : 'icon'}` }}>

@@ -9,31 +9,29 @@ import {getOneItem} from "../../../redux/reducers/oneItem"
 
 const BreadCrumbs = () => {
     let location = useLocation();
-    const {status, error, data, filter} = useSelector((store)=>store.shop)
+    const {filter} = useSelector((store)=>store.shop)
 
     const {product} = useSelector((store)=>store.oneItem)
     const dispatch = useDispatch()
 
+    // const [itemTitle, setItemTitle] = useState(product.title)
 
 
 
 
-    useEffect(()=>{
-        dispatch(getShop())
 
-    },[filter.type])
-    useEffect(()=>{
-        dispatch(getOneItem())
-
-    },[product.title])
-
+    // const handleProductTitle = ()=>{
+    //     if (location.pathname === '/catalog'){
+    //         setItemTitle('')
+    //     }
+    // }
 
 
     return (
         <ul className="breadcrumbs">
             <li className="breadcrumbs__item">Главная</li>
 
-            <li className="breadcrumbs__item">{location.pathname === '/catalog' || location.pathname === `/catalog/${product.id}`  ? 'Каталог' : location.pathname === '/return' ? 'Возврат' : location.pathname === '/pay' ? 'Оплата и доставка' : location.pathname === '/like' ? 'Избранное' : ''}</li>
+            <li className="breadcrumbs__item">{location.pathname === '/catalog' || location.pathname === `/catalog/${product.id}`  ? 'Каталог' : location.pathname === '/return' ? 'Возврат' : location.pathname === '/pay' ? 'Оплата и доставка' : location.pathname === '/like' ? 'Избранное' : location.pathname === "/cart" ? "Корзина" : ''}</li>
             {
                 filter.type === 'coat' ? <li className="breadcrumbs__item">Пальто
                 </li> :  filter.type === 'jacket' ? <li className="breadcrumbs__item">Пуховики и жилеты
@@ -44,7 +42,7 @@ const BreadCrumbs = () => {
 
                 </li> : ''
             }
-            <li className="breadcrumbs__item">{product.title}</li>
+            <li className="breadcrumbs__item"  >{product.title}</li>
         </ul>
     );
 };

@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {Link, useNavigate} from "react-router-dom";
-import axios, * as others from 'axios';
+import axios from 'axios';
 import {useDispatch, useSelector} from "react-redux";
-import {getUsers} from "../../../redux/reducers/users";
+import {getUsers, loginAccount} from "../../../redux/reducers/users";
 import {useForm} from "react-hook-form";
 import {AiFillEye, AiFillEyeInvisible} from 'react-icons/ai'
 
@@ -10,21 +10,16 @@ import {AiFillEye, AiFillEyeInvisible} from 'react-icons/ai'
 const Register = () => {
 
     const dispatch = useDispatch()
-    const {user} = useSelector((store)=> store.users)
     const navigate = useNavigate()
     const [show, setShow] = useState(false)
     const styleForEyes = { color: "#E0BEA2", fontSize: "20px" }
 
 
-    useEffect(()=>{
-        dispatch(getUsers())
-    },[])
 
 
     const {
         register,
         handleSubmit,
-        reset,
         formState:{
             errors
         }
@@ -32,15 +27,28 @@ const Register = () => {
 
 
     const registerUser = (data) =>{
+        console.log(data)
 
 
 
-        axios.post('http://localhost:4444/users', data)
+        axios.post('http://localhost:4444/register', data)
             .then((res)=>{
-                console.log(res)
+                dispatch(loginAccount({
+                    ...res.data.user,
+                    token:res.data.accessToken
+                }))
                 navigate('/')
+                localStorage.setItem('users', JSON.stringify(
+                    {
+                        ...res.data.user,
+                        token:res.data.accessToken
+                    }
+
+                ))
+
+
             })
-            .catch((err)=>console.log(err.message))
+            .catch((err)=>alert(err))
 
 
     }
@@ -85,7 +93,7 @@ const Register = () => {
                                value: /(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z!@#$%^&*]{8,}/g,
                                message: '*Пароль должен содержать не менее 8 символов, заглавную букву, число!'
                            }
-                           })} type={show ? 'text' : 'password'}  className="input password"/>
+                           })} required type={show ? 'text' : 'password'}  className="input password"/>
 
                            <span className="register__eyes" onClick={()=> setShow(!show)}>{show ? <AiFillEye style={styleForEyes}
                            /> : <AiFillEyeInvisible style={styleForEyes}/>}</span>

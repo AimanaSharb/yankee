@@ -2,35 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c174314d-5961-4dd1-9380-daaff57dd9a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hooks/use-auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/SelectPrice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogRow/Product/Product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Item/ItemSwiper/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Likes/LikeItems/LikeItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reselect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routing/AuthRouting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routing/PrivateRouting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/like.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/SelectBrand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/i18n.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchLine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/SelectBy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Account/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Account/Account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Account/Authorization/Authorization.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Account/Authorization/Authorization.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Account/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Account/Register/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Catalog/BreadCrumbs/BreadCrumbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog/BreadCrumbs/BreadCrumbs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/CatalogFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/CatalogFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/SelectPrice.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/SelectSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogFilter/SelectSize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Catalog/CatalogRow/CatalogRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogRow/CatalogRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Item/ItemSwiper/ItemSwiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Item/ItemSwiper/ItemSwiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Catalog/CatalogRow/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog/CatalogRow/Product/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Catalog/SideBar/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog/SideBar/SideBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Likes/Likes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Likes/Likes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/like.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/like.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/oneItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/oneItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/shop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/catalogRow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/catalogRow.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/register.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/return.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/return.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/select.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +106,7 @@
       <workItem from="1676561496042" duration="19269000" />
       <workItem from="1677525675387" duration="407000" />
       <workItem from="1677606336283" duration="629000" />
-      <workItem from="1678294411982" duration="21327000" />
+      <workItem from="1678294411982" duration="55604000" />
     </task>
     <servers />
   </component>
@@ -116,11 +119,12 @@
     </state>
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.807@0.25.1440.807" timestamp="1673003553333" />
     <state x="215" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.951@0.25.1680.951" timestamp="1676560529499" />
-    <state x="427" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1675187613195">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state x="498" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1679583392953">
+      <screen x="0" y="25" width="1680" height="954" />
     </state>
     <state x="427" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.805@0.25.1440.805" timestamp="1675187613195" />
     <state x="427" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.807@0.25.1440.807" timestamp="1673714855361" />
+    <state x="498" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.954@0.25.1680.954" timestamp="1679583392953" />
     <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1674669988365">
       <screen x="0" y="25" width="1440" height="805" />
     </state>

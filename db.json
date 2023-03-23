@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Linen-Blend Notch-Neck Set Top",
-      "brand": "Abercrombie",
+      "brand": "Celine",
       "price": 168,
       "images": [
         {
@@ -12,20 +12,7 @@
         }
       ],
       "type": "t-shirt",
-      "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "M"
-        },
-        {
-          "id": 3,
-          "size": "XL"
-        }
-      ]
+      "sizes": ["S", "M", "XL"]
     },
     {
       "id": 2,
@@ -107,7 +94,7 @@
     },
     {
       "id": 4,
-      "title": "Tweed Wrap Skort",
+      "title": "Tweed Wrap Skirt",
       "brand": "Abercrombie",
       "type": "skirt",
       "price": 420,
@@ -147,7 +134,7 @@
     {
       "id": 5,
       "title": "Satin Maxi Skirt",
-      "brand": "Abercrombie",
+      "brand": "Celine",
       "type": "skirt",
       "price": 230,
       "images": [
@@ -189,7 +176,7 @@
     },
     {
       "id": 6,
-      "title": "Vegan Leather Mini Skort",
+      "title": "Vegan Leather Mini Skirt",
       "brand": "Abercrombie",
       "type": "skirt",
       "price": 90,
@@ -377,7 +364,7 @@
     {
       "id": 11,
       "title": "Vegan Leather Trench Coat",
-      "brand": "Abercrombie",
+      "brand": "Celine",
       "type": "coat",
       "price": 200,
       "images": [
@@ -506,7 +493,7 @@
     {
       "id": 14,
       "title": "Plunge Pleated Mini Dress",
-      "brand": "Abercrombie",
+      "brand": "Celine",
       "type": "dress",
       "price": 110,
       "images": [
@@ -682,7 +669,7 @@
     {
       "id": 18,
       "title": "Quilted Bomber",
-      "brand": "Abercrombie",
+      "brand": "Celine",
       "type": "top",
       "price": 80,
       "images": [
@@ -721,57 +708,17 @@
   ],
   "users": [
     {
-      "email": "feknkfen@gmail.com",
-      "password": "dskfndknfknf",
-      "id": 1
-    },
-    {
-      "email": "aiman@mail.ru",
-      "password": "123456",
-      "id": 4
-    },
-    {
-      "email": "aiaman@mai.ru",
-      "password": "aifjbuafahfdiufhudh",
-      "id": 5
-    },
-    {
-      "email": "bvvbjbvjdbvjdb@fnn.re",
-      "password": "nfkenkfenfe",
-      "id": 6
-    },
-    {
-      "email": "aimanasharb@gmail.com",
-      "password": "dmksmdlmskds",
-      "id": 7
-    },
-    {
-      "email": "aimanulkin@gmail.com",
-      "password": "$2a$10$Ub3nN00lvdlc3u.vAaXlvO37xpFEli.wnBXldOokDkVa7S6kZVATa",
-      "id": 8
-    },
-    {
-      "email": "vfvfmvlfvd@fnenfj.fsfs",
-      "password": "$2a$10$EYy0EfjL6Z/DUMG7cU2eLuPkRFrqonuYan8Qtfb6jjw/Egl.XAeKe",
-      "id": 9
-    },
-    {
-      "email": "wiwnt@gnr4.ov",
-      "password": "$2a$10$QQBo9.TfEuQf2fVzZIzG.O/ugWOZ4brMxfJ8OVwg4hAL.FSj.9gCu",
-      "id": 10
-    },
-    {
-      "email": "itsherer@mail.ru",
-      "password": "$2a$10$vt1jwUFJyfZzAoTHBMqeXuT7AG63dul95pwc.D4QZG3pPbVZ0E4jK",
-      "id": 11
+      "email": "murat@gmai.ru",
+      "password": "$2a$10$FutMKSf0THyG10Dt.vjrbudCZ5nN91hRwayfgIjU1.v5CuNzPzry2",
+      "id": 12
     }
   ],
-  "favourites": [],
+  "cart": [],
   "likes": [
     {
       "id": 1,
       "title": "Linen-Blend Notch-Neck Set Top",
-      "brand": "Abercrombie",
+      "brand": "Celine",
       "price": 168,
       "images": [
         {
@@ -780,250 +727,8 @@
         }
       ],
       "type": "t-shirt",
-      "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "M"
-        },
-        {
-          "id": 3,
-          "size": "XL"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Satin Maxi Skirt",
-      "brand": "Abercrombie",
-      "type": "skirt",
-      "price": 230,
-      "images": [
-        {
-          "id": 1,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-3108-0029-100_model2?policy=product-large"
-        },
-        {
-          "id": 2,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-3108-0029-100_model5?policy=product-large"
-        },
-        {
-          "id": 3,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-3108-0029-100_model1?policy=product-large"
-        },
-        {
-          "id": 4,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-3108-0029-100_prod1?policy=product-large"
-        }
-      ],
-      "sizes": [
-        {
-          "id": 1,
-          "size": "34"
-        },
-        {
-          "id": 2,
-          "size": "36"
-        },
-        {
-          "id": 3,
-          "size": "38"
-        },
-        {
-          "id": 4,
-          "size": "40"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "A&F Air Cloud Mid Puffer",
-      "brand": "Abercrombie",
-      "type": "jacket",
-      "price": 240,
-      "images": [
-        {
-          "id": 1,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_144-2344-1142-110_prod1?policy=product-large"
-        },
-        {
-          "id": 2,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_144-2344-1142-110_prod2?policy=product-large"
-        }
-      ],
-      "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        },
-        {
-          "id": 4,
-          "size": "XL"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Long-Sleeve Ruched Wrap Bodysuit",
-      "brand": "Abercrombie",
-      "price": 150,
-      "type": "t-shirt",
-      "images": [
-        {
-          "id": 1,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_139-3483-1179-101_model2?policy=product-large"
-        },
-        {
-          "id": 2,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_139-3483-1179-101_model4?policy=product-large"
-        },
-        {
-          "id": 3,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_139-3483-1179-101_model1?policy=product-large"
-        },
-        {
-          "id": 4,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_139-3483-1179-101_model5?policy=product-large"
-        }
-      ],
-      "sizes": [
-        {
-          "id": 1,
-          "size": "XS"
-        },
-        {
-          "id": 2,
-          "size": "M"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Slim Fit Cable-Knit Polo Shirt White",
-      "brand": "Abercrombie",
-      "type": "t-shirt",
-      "price": 140,
-      "images": [
-        {
-          "id": 1,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3256-1471-100_model1?policy=product-large"
-        },
-        {
-          "id": 2,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3256-1471-100_model3?policy=product-large"
-        },
-        {
-          "id": 3,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3256-1471-100_model6?policy=product-large"
-        },
-        {
-          "id": 4,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3256-1471-100_model4?policy=product-large"
-        }
-      ],
-      "sizes": [
-        {
-          "id": 1,
-          "size": "XS"
-        },
-        {
-          "id": 2,
-          "size": "M"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Vegan Leather Mini Skort",
-      "brand": "Abercrombie",
-      "type": "skirt",
-      "price": 90,
-      "images": [
-        {
-          "id": 1,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-2310-0185-900_prod1?policy=product-large"
-        }
-      ],
-      "sizes": [
-        {
-          "id": 1,
-          "size": "34"
-        },
-        {
-          "id": 2,
-          "size": "36"
-        },
-        {
-          "id": 3,
-          "size": "38"
-        },
-        {
-          "id": 4,
-          "size": "40"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "Plunge Pleated Mini Dress",
-      "brand": "Abercrombie",
-      "type": "dress",
-      "price": 110,
-      "images": [
-        {
-          "id": 1,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_159-2799-4274-900_model2?policy=product-large"
-        },
-        {
-          "id": 2,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_159-2799-4274-900_model3?policy=product-large"
-        },
-        {
-          "id": 3,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_159-2799-4274-900_model1?policy=product-large"
-        },
-        {
-          "id": 4,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_159-2799-4274-900_prod1?policy=product-large"
-        }
-      ],
-      "sizes": [
-        {
-          "id": 1,
-          "size": "36"
-        },
-        {
-          "id": 2,
-          "size": "40"
-        },
-        {
-          "id": 3,
-          "size": "42"
-        },
-        {
-          "id": 4,
-          "size": "44"
-        }
-      ]
+      "sizes": ["S", "M", "XL"]
     }
+
   ]
 }

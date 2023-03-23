@@ -5,7 +5,7 @@ export const getShop = createAsyncThunk(
     'shop/getShop',
     async(filter,{rejectWithValue})=>{
         try {
-            const res = await axios(`http://localhost:4444/catalog?${filter?.type ? 'type=' + filter.type + '&' : ''}`)
+            const res = await axios(`http://localhost:4444/catalog?${filter?.type ? 'type=' + filter.type  : ''}&${filter.brand.length ? 'brand=' + filter.brand + '&' : ''}${filter.search !== '' ? "title_like=" + filter.search : ''}`)
             if(res.statusText !== 'OK'){
                 throw new Error('Server error')
             }
@@ -27,7 +27,9 @@ const shopSlice = createSlice({
         filter: {
             type: '',
             price: '',
-            size:''
+            size:'',
+            brand:'',
+            search:''
         },
         status:'',
         error:''
@@ -35,18 +37,29 @@ const shopSlice = createSlice({
     reducers: {
 
         changeType:(state, action)=>{
-            state.filter = {
-                ...state.filter,
-                type:  action.payload
-            }
-        },
-        changeSize:(state, action) =>{
-            state.filter = {
+            state.filter ={
                 ...state.filter,
                 type:action.payload
             }
+        },
+        changeSize:(state, action)=>{
+            state.filter = {
+                ...state.filter,
+                size:action.payload
+            }
+        },
+        changeBrand:(state, action)=> {
+            state.filter = {
+                ...state.filter,
+                brand:action.payload
+            }
+        },
+        changeSearch :(state, action)=>{
+            state.filter = {
+                ...state.filter,
+                search:action.payload
+            }
         }
-
 
 
 
@@ -74,5 +87,5 @@ const shopSlice = createSlice({
 
 
 
-export const {changeType, changeSize} = shopSlice.actions
+export const {changeType, changeSize, changeBrand, changeSearch} = shopSlice.actions
 export default shopSlice.reducer

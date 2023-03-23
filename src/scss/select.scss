@@ -1,17 +1,14 @@
-.selectSize{
-  margin-bottom: 20px;
+.catalogFilter__row{
+  display: flex;
+  align-items: center;
+  column-gap: 70px;
+  margin-bottom:20px;
+}
 
-  &__select{
-    border: none;
-    outline: none;
-  }
 
-  &__option{
-    font-size: 16px;
-    line-height: 19px;
-    //color: #252525;
-    color: #E0BEA2;
-
-  }
-
+.filter__select{
+  border: none;
+  border-bottom: 2px #CCA88A solid;
+  padding: 8px 10px 8px;
+  outline: none;
 }

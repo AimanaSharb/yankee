@@ -24,6 +24,9 @@
 
   &__card{
     width: calc(16.66666% - 25px);
+    & img{
+      display: inline;
+    }
     &-desc{
       font-size: 16px;
       line-height: 20px;
