@@ -27,15 +27,12 @@ const Register = () => {
 
 
     const registerUser = (data) =>{
-        console.log(data)
-
-
-
         axios.post('http://localhost:4444/register', data)
             .then((res)=>{
                 dispatch(loginAccount({
                     ...res.data.user,
-                    token:res.data.accessToken
+                    token:res.data.accessToken,
+
                 }))
                 navigate('/')
                 localStorage.setItem('users', JSON.stringify(
@@ -49,9 +46,9 @@ const Register = () => {
 
             })
             .catch((err)=>alert(err))
-
-
     }
+
+
 
     return (
         <div className="register">

@@ -34,6 +34,12 @@
     position: relative;
     font-size: 18px;
     line-height: 21px;
+    cursor:pointer;
+
+    &.active{
+      color: #CCA88A;
+
+    }
     &:hover{
       color: #E0BEA2;
     }
@@ -100,6 +106,12 @@
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+    cursor:pointer;
+
+    &.active{
+      color: #CCA88A;
+
+    }
   }
 }
 

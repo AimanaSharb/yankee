@@ -1,0 +1,48 @@
+{
+  "header": {
+    "catalog": "CATALOG",
+    "aboutus": "ABOUT US",
+    "new": "NEW"
+  },
+  "home": {
+    "collection": "NEW COLLECTION",
+    "watchnew": "New Clothes",
+    "category" : "Categories",
+    "know": " Be the first to know about new products",
+    "subscribe": "Subscribe",
+    "con": "By clicking on the 'Subscribe' button, I agree to the processing of my personal data and have read the terms of confidentiality."
+  },
+  "footer":{
+    "company": "COMPANY",
+    "aboutus": "ABOUT US",
+    "contacts": "Contacts",
+    "useful": "USEFUL",
+    "payment": "Payment and delivery",
+    "return":"Return conditions",
+    "bonus": "BONUS SYSTEM",
+    "client": "TO THE BUYER",
+    "like": "Favorites",
+    "public": "Public offer",
+    "politician": "Privacy Policy"
+  },
+  "catalog": {
+    "main": "Main",
+    "catalog": "Catalog",
+    "return": "Return",
+    "cart": "Cart",
+    "coat": "Coats",
+    "jacket": "Jackets",
+    "dress": "Dresses",
+    "shirt": "T-shirts and tops",
+    "skirt": "Skirts",
+    "top": "Shirts and blouses",
+    "all": "ALL",
+    "brand": "Brand",
+    "reset": "Reset",
+    "size": "Size"
+  },
+  "cart": {
+    "yourorder": "Your order"
+  }
+}
+

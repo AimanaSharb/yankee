@@ -5,7 +5,7 @@ import {BrowserRouter} from "react-router-dom";
 import './scss/style.scss'
 import {Provider} from "react-redux"
 import { ChakraProvider } from '@chakra-ui/react'
-
+import './utils/i18n'
 import {store} from './redux'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

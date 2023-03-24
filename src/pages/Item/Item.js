@@ -8,18 +8,26 @@ import {accordionData} from "./Accordion/accordioninfo";
 import ItemSwiper from "./ItemSwiper/ItemSwiper";
 import ItemLike from "./ItemBot/ItemLike/ItemLike";
 import ItemSup from "./ItemBot/ItemSup/ItemSup";
+import {addToCart} from "../../redux/reducers/users";
 
 const Item = () => {
 
     const dispatch = useDispatch()
     const params = useParams()
     const {product, status, error} = useSelector((store)=>store.oneItem)
+    const {cart} = useSelector((store)=>store.users)
 
 
     useEffect(()=>{
             dispatch(getOneItem(params.id))
 
         },[])
+
+
+    const handleAddToCart = () => {
+        dispatch(addToCart(product));
+    };
+
 
 
 
@@ -51,7 +59,7 @@ const Item = () => {
                             </select>
 
                             <div className="item__btns">
-                                <button type="button" className="item__btn">В КОРЗИНУ</button>
+                                <button onClick={handleAddToCart}  type="button" className="item__btn">В КОРЗИНУ</button>
                                 <button  type="button" className="item__btn-white">В ИЗБРАННОЕ</button>
                             </div>
 

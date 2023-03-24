@@ -12,7 +12,11 @@
         }
       ],
       "type": "t-shirt",
-      "sizes": ["S", "M", "XL"]
+      "sizes": [
+        "S",
+        "M",
+        "XL"
+      ]
     },
     {
       "id": 2,
@@ -708,27 +712,24 @@
   ],
   "users": [
     {
-      "email": "murat@gmai.ru",
-      "password": "$2a$10$FutMKSf0THyG10Dt.vjrbudCZ5nN91hRwayfgIjU1.v5CuNzPzry2",
-      "id": 12
-    }
-  ],
-  "cart": [],
-  "likes": [
+      "email": "imani@gmail.com",
+      "password": "$2a$10$jC5P6U7G0ikVoXiUepi38.zl8EgWAZgJqWvp14Rssd5m3jhpCa692",
+      "id": 13
+    },
     {
-      "id": 1,
-      "title": "Linen-Blend Notch-Neck Set Top",
-      "brand": "Celine",
-      "price": 168,
-      "images": [
-        {
-          "id": 1,
-          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3216-1470-810_prod1?policy=product-large"
-        }
-      ],
-      "type": "t-shirt",
-      "sizes": ["S", "M", "XL"]
+      "email": "aisha@gmail.com",
+      "password": "$2a$10$Sym0IRn.jGCzIF.GAmVi/e/8VtVdLET1wx8dNyYE6xjooTVf94E96",
+      "id": 14
+    },
+    {
+      "email": "murat@gmail.com",
+      "password": "$2a$10$RaWB4X/TVnV/0PBdSAgJA.rZkDjUsrrWV3TO.FCTK23UzeyGv7Zj6",
+      "id": 15
+    },
+    {
+      "email": "eldin@gmail.com",
+      "password": "$2a$10$gfVrNXYWT7WsEiGTAWb.pOAgxiTabvmLvTig5J//l2V2Q3SuTTtN6",
+      "id": 16
     }
-
   ]
 }

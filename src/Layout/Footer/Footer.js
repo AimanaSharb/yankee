@@ -4,10 +4,12 @@ import {RiTelegramLine} from 'react-icons/ri';
 import {Link} from "react-router-dom"
 import {IconContext} from "react-icons";
 import {useLocation} from "react-router"
+import {useTranslation} from "react-i18next";
 
 
 const Footer = () => {
     const location = useLocation()
+    const {t} = useTranslation()
     return (
         <footer className={location.pathname === '/register' ? 'register-footer' : 'footer'} >
             <div className="container">
@@ -15,23 +17,23 @@ const Footer = () => {
                 <div className="footer__content">
 
                     <div className="footer__card">
-                        <h3 className="footer__card-title">КОМПАНИЯ</h3>
-                        <Link>О нас
+                        <h3 className="footer__card-title">{t('footer.company')}</h3>
+                        <Link>{t('footer.aboutus')}
                         </Link>
                         <Link>
-                            Контакты
+                            {t('footer.contacts')}
                         </Link>
                     </div>
 
                     <div className="footer__card">
-                        <h3 className="footer__card-title">ПОЛЕЗНОЕ</h3>
-                        <Link to='/pay'>Оплата и доставка
+                        <h3 className="footer__card-title">{t('footer.useful')}</h3>
+                        <Link to='/pay'>{t('footer.payment')}
                         </Link>
                         <Link to='/return'>
-                            Условия возврата
+                            {t('footer.return')}
                         </Link>
                         <Link>
-                            Бонусная система
+                            {t('footer.bonus')}
                         </Link>
 
 
@@ -39,14 +41,14 @@ const Footer = () => {
                     </div>
 
                     <div className="footer__card">
-                        <h3 className="footer__card-title">ПОКУПАТЕЛЮ</h3>
-                        <Link to='/like'>Избранное</Link>
-                        <Link>Публичная оферта</Link>
-                        <Link>Политика конфиденциальности</Link>
+                        <h3 className="footer__card-title">{t('footer.client')}</h3>
+                        <Link to='/like'>{t('footer.like')}</Link>
+                        <Link>{t('footer.public')}</Link>
+                        <Link>{t('footer.politician')}</Link>
                     </div>
 
                     <div className="footer__card">
-                        <h3 className="footer__card-title">КОНТАКТЫ</h3>
+                        <h3 className="footer__card-title">{t('footer.contacts')}</h3>
                         <div className="footer__icons">
                             <Link>
                                 <IconContext.Provider value={{ className: "footer__icon" }}>

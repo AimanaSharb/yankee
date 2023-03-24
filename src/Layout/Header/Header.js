@@ -12,9 +12,7 @@ import {FiShoppingCart} from "react-icons/fi";
 import {useSelector, useDispatch} from "react-redux";
 import {logoutAccount} from "../../redux/reducers/users";
 import SearchLine from "../../components/SearchLine";
-import {changeSearch} from "../../redux/reducers/shop";
 import {useTranslation} from "react-i18next";
-
 
 const Header = () => {
     let location = useLocation()
@@ -23,8 +21,8 @@ const Header = () => {
     const styleForExit = {fontSize:"20px", color: "#E0BEA2" }
     const styleForExitHome = {fontSize:"20px", color: "white" }
     const [search, setSearch] = useState(false)
-    const {t, i18n} = useTranslation()
 
+    const {t, i18n} = useTranslation()
     const changeLanguage= (lang) =>{
         i18n.changeLanguage(lang)
     }
@@ -38,23 +36,17 @@ const Header = () => {
                         <HiMenuAlt2/>
                     </IconContext.Provider>
                     <ul className={`header__list ${location.pathname === '/' ? 'header__home-list'  : ''}`}>
-                        <Link className="header__list-item">NEW</Link>
-                        <Link to="catalog" className="header__list-item">КАТАЛОГ</Link>
-                        <Link className="header__list-item">О НАС</Link>
+                        <Link className="header__list-item">{t('header.new')}</Link>
+                        <Link to="catalog" className="header__list-item">{t('header.catalog')}</Link>
+                        <Link className="header__list-item">{t('header.aboutus')}</Link>
                     </ul>
                     <Link to="/" className="header__logo">
                         <img className="header__logo" src={location.pathname === '/' ? logo : logo2} alt=""/>
                     </Link>
 
                     <ul className="header__langs">
-                        <li
-                            onClick={()=>{
-                            changeLanguage('en')}}
-                            className={`header__lang ${location.pathname === '/' ? 'header__home-lang': ''}`}>RU</li>
-                        <li
-                            onClick={()=>{
-                                changeLanguage('ru')}}
-                            className={`header__lang ${location.pathname === '/' ? 'header__home-lang':''}`}>UAH</li>
+                        <li onClick={()=> changeLanguage('ru')} className={`${location.pathname === '/' ? 'header__home-lang': 'header__lang'} ${i18n.language === 'ru' ? 'active' : ''}`}>RU</li>
+                        <li onClick={()=> changeLanguage('en')} className={`${location.pathname === '/' ? 'header__home-lang':'header__lang'}  ${i18n.language === 'en' ? 'active' : ''}`}>EN</li>
                     </ul>
                     <ul className="header__icons">
 
@@ -90,7 +82,7 @@ const Header = () => {
                                 <RiHeartLine/>
                             </IconContext.Provider>
                         </Link>
-                        <Link>
+                        <Link to="/cart">
                             <IconContext.Provider value={{ className: `${location.pathname === '/' ? 'header-icon' : 'icon'}` }}>
                                 <FiShoppingCart/>
                             </IconContext.Provider>
