@@ -1,31 +1,17 @@
-import React, {useEffect} from 'react';
-import {useDispatch, useSelector} from "react-redux";
-import {getShop} from "../../../../redux/reducers/shop";
+import React, {useEffect, useState} from 'react';
+import {useSelector} from "react-redux";
 import img from "../../../../assets/Home/row.png";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay, Navigation} from "swiper";
 import {useParams} from "react-router";
-import {getOneItem} from "../../../../redux/reducers/oneItem";
 import {Link} from "react-router-dom";
+import {AiOutlineHeart, AiFillHeart} from 'react-icons/ai'
+import {getOneItem} from "../../../../redux/reducers/oneItem";
 
 const ItemSup = () => {
-    const dispatch = useDispatch()
-
-    const {data, filter, status, error} = useSelector((store)=>store.shop)
-    useEffect(()=>{
-        dispatch(getShop(filter.type))
-
-    },[filter.type])
-
-    const params = useParams()
-    const {product} = useSelector((store)=>store.oneItem)
-
-
-    useEffect(()=>{
-        dispatch(getOneItem(params.id))
-
-    },[])
-
+    const {data} = useSelector((store)=>store.shop)
+    const {product} = useSelector(store=> store.oneItem)
+    const styleForHearts = {color:"white", fontSize:"30px"}
 
 
 
@@ -33,24 +19,22 @@ const ItemSup = () => {
 
         <>
             {
-                status === 'loading' ? <img src="../../../assets/istockphoto-1288130003-612x612.jpeg" alt=""/> : status === 'resolve' ?
-                    <Swiper slidesPerView={4} autoplay={{delay: 6000, disableOnInteraction: false}}  spaceBetween={15} loop={true}   modules={[Autoplay, Navigation]} className="mySwiper">
+                    <Swiper className="mySwiper3" slidesPerView={3} autoplay={{delay:1000, waitForTransition:2000}} spaceBetween={15} loop={true}   modules={[Autoplay, Navigation]} >
                         {data.map((item)=>(
                             item.type === product.type ?
-                                <SwiperSlide>
+                                <SwiperSlide className="swiper-slide-none" key={item.id}>
                                 <div className="swiper__card">
-                                <Link  to={`../catalog/${item.id}`}>
-                                    <img src={`../${item.img}`} alt=""/>
+                                <Link  className="swiper__card-img" to={`/catalog/${item.id}`}>
+                                    <img src={item.images[0].img} alt=""/>
                                 </Link>
                                     <p className="swiper__txt">{item.title}</p>
-
                                 </div>
                             </SwiperSlide> : ''
 
 
                         ))}
 
-                    </Swiper> :<h2>{error}</h2>
+                    </Swiper>
 
             }
 

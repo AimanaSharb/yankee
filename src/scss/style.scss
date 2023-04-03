@@ -19,6 +19,15 @@
 }
 
 
+
+.notfound__title{
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #CCA88A;
+}
+
+
 @import "header";
 @import "collection";
 @import "category";
@@ -34,7 +43,6 @@
 @import "select";
 @import 'accordion';
 @import "item";
-@import "itemswiper";
 @import "register";
 @import "like";
 @import "cart";

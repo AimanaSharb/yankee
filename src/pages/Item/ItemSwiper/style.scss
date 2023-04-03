@@ -78,6 +78,30 @@ body {
 .swiperImg-content{
   max-height: 540px;
   display: flex;
+  flex-direction: column-reverse;
+
+}
+
+.mySwiper3 .swiper-wrapper{
+  transition-duration: 4000ms!important;
+  transition-timing-function : linear !important;
+
+}
+
+
+
+.itemLike__row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.itemLike__card{
+  width: calc(33.33333% - 13.33333px);
+  &-img{
+    border-radius: 20px;
+  }
 
 }
 

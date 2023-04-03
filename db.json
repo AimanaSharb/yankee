@@ -16,7 +16,8 @@
         "S",
         "M",
         "XL"
-      ]
+      ],
+      "new": true
     },
     {
       "id": 2,
@@ -43,19 +44,11 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "XS"
-        },
-        {
-          "id": 2,
-          "size": "M"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        }
-      ]
+        "XS",
+        "M",
+        "L"
+      ],
+      "new": true
     },
     {
       "id": 3,
@@ -82,18 +75,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "XS"
-        },
-        {
-          "id": 2,
-          "size": "M"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        }
+        "XS",
+        "M",
+        "L"
       ]
     },
     {
@@ -121,18 +105,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "34"
-        },
-        {
-          "id": 2,
-          "size": "36"
-        },
-        {
-          "id": 3,
-          "size": "38"
-        }
+        34,
+        36,
+        38
       ]
     },
     {
@@ -160,22 +135,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "34"
-        },
-        {
-          "id": 2,
-          "size": "36"
-        },
-        {
-          "id": 3,
-          "size": "38"
-        },
-        {
-          "id": 4,
-          "size": "40"
-        }
+        34,
+        38,
+        40
       ]
     },
     {
@@ -191,22 +153,11 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "34"
-        },
-        {
-          "id": 2,
-          "size": "36"
-        },
-        {
-          "id": 3,
-          "size": "38"
-        },
-        {
-          "id": 4,
-          "size": "40"
-        }
+        34,
+        36,
+        38,
+        40,
+        42
       ]
     },
     {
@@ -234,18 +185,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "M"
-        }
+        "S",
+        "XS",
+        "M"
       ]
     },
     {
@@ -273,18 +215,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        }
+        "S",
+        "XS",
+        "M"
       ]
     },
     {
@@ -304,22 +237,10 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        },
-        {
-          "id": 4,
-          "size": "XL"
-        }
+        "S",
+        "XS",
+        "L",
+        "XL"
       ]
     },
     {
@@ -347,23 +268,11 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        },
-        {
-          "id": 4,
-          "size": "XL"
-        }
-      ]
+        "S",
+        "L",
+        "XL"
+      ],
+      "new": true
     },
     {
       "id": 11,
@@ -390,22 +299,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        },
-        {
-          "id": 4,
-          "size": "XL"
-        }
+        "M",
+        "L",
+        "XL"
       ]
     },
     {
@@ -433,22 +329,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "L"
-        },
-        {
-          "id": 4,
-          "size": "XL"
-        }
+        "M",
+        "L",
+        "XL"
       ]
     },
     {
@@ -476,22 +359,11 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "36"
-        },
-        {
-          "id": 2,
-          "size": "40"
-        },
-        {
-          "id": 3,
-          "size": "42"
-        },
-        {
-          "id": 4,
-          "size": "44"
-        }
+        34,
+        36,
+        38,
+        40,
+        42
       ]
     },
     {
@@ -519,22 +391,11 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "36"
-        },
-        {
-          "id": 2,
-          "size": "40"
-        },
-        {
-          "id": 3,
-          "size": "42"
-        },
-        {
-          "id": 4,
-          "size": "44"
-        }
+        34,
+        36,
+        38,
+        40,
+        42
       ]
     },
     {
@@ -562,22 +423,11 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "36"
-        },
-        {
-          "id": 2,
-          "size": "40"
-        },
-        {
-          "id": 3,
-          "size": "42"
-        },
-        {
-          "id": 4,
-          "size": "44"
-        }
+        34,
+        36,
+        38,
+        40,
+        42
       ]
     },
     {
@@ -605,22 +455,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "M"
-        },
-        {
-          "id": 4,
-          "size": "L"
-        }
+        "M",
+        "L",
+        "XL"
       ]
     },
     {
@@ -648,26 +485,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "S"
-        },
-        {
-          "id": 2,
-          "size": "XS"
-        },
-        {
-          "id": 3,
-          "size": "M"
-        },
-        {
-          "id": 4,
-          "size": "L"
-        },
-        {
-          "id": 5,
-          "size": "XL"
-        }
+        "M",
+        "L",
+        "XL"
       ]
     },
     {
@@ -695,18 +515,9 @@
         }
       ],
       "sizes": [
-        {
-          "id": 1,
-          "size": "M"
-        },
-        {
-          "id": 2,
-          "size": "L"
-        },
-        {
-          "id": 3,
-          "size": "XL"
-        }
+        "M",
+        "L",
+        "XL"
       ]
     }
   ],
@@ -730,6 +541,248 @@
       "email": "eldin@gmail.com",
       "password": "$2a$10$gfVrNXYWT7WsEiGTAWb.pOAgxiTabvmLvTig5J//l2V2Q3SuTTtN6",
       "id": 16
+    },
+    {
+      "email": "qwerty@gmail.com",
+      "password": "$2a$10$mF.dNaoPVRCo6bViKT94B.1eUNjrReilguE43/1ah3.j.V68PhOIW",
+      "id": 17
+    },
+    {
+      "email": "qwerty1@gmail.com",
+      "password": "$2a$10$xLCblnfXG5q6ULFfddqYm.aA7h7qFvEAESSbBUv7cLFGUrvdi6H8K",
+      "id": 18
+    },
+    {
+      "email": "Hello@gmail.com",
+      "password": "$2a$10$25aG.2QyTHk5LUdgadNIz.u1yza.Q7PMXil5Peyhwl/NiyrcvjXLG",
+      "id": 19
+    }
+  ],
+  "cart": [
+    {
+      "id": 5,
+      "title": "Satin Maxi Skirt",
+      "brand": "Celine",
+      "type": "skirt",
+      "price": 230,
+      "images": [
+        {
+          "id": 1,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-3108-0029-100_model2?policy=product-large"
+        },
+        {
+          "id": 2,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-3108-0029-100_model5?policy=product-large"
+        },
+        {
+          "id": 3,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-3108-0029-100_model1?policy=product-large"
+        },
+        {
+          "id": 4,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_143-3108-0029-100_prod1?policy=product-large"
+        }
+      ],
+      "sizes": [
+        34,
+        38,
+        40
+      ]
+    },
+    {
+      "id": 9,
+      "title": "A&F Air Cloud Mid Puffer",
+      "brand": "Abercrombie",
+      "type": "jacket",
+      "price": 240,
+      "images": [
+        {
+          "id": 1,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_144-2344-1142-110_prod1?policy=product-large"
+        },
+        {
+          "id": 2,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_144-2344-1142-110_prod2?policy=product-large"
+        }
+      ],
+      "sizes": [
+        "S",
+        "XS",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Slim Fit Cable-Knit Polo Shirt White",
+      "brand": "Abercrombie",
+      "type": "t-shirt",
+      "price": 140,
+      "images": [
+        {
+          "id": 1,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3256-1471-100_model1?policy=product-large"
+        },
+        {
+          "id": 2,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3256-1471-100_model3?policy=product-large"
+        },
+        {
+          "id": 3,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3256-1471-100_model6?policy=product-large"
+        },
+        {
+          "id": 4,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3256-1471-100_model4?policy=product-large"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Traveler Half-Zip Mini Dress",
+      "brand": "Abercrombie",
+      "type": "dress",
+      "price": 70,
+      "images": [
+        {
+          "id": 1,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_159-3023-4263-900_model1?policy=product-large"
+        },
+        {
+          "id": 2,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_159-3023-4263-900_model5?policy=product-large"
+        },
+        {
+          "id": 3,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_159-3023-4263-900_model3?policy=product-large"
+        },
+        {
+          "id": 4,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_159-3023-4263-900_model2?policy=product-large"
+        }
+      ],
+      "sizes": [
+        34,
+        36,
+        38,
+        40,
+        42
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quilted Bomber",
+      "brand": "Celine",
+      "type": "top",
+      "price": 80,
+      "images": [
+        {
+          "id": 1,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_152-3041-0926-901_model1?policy=product-large"
+        },
+        {
+          "id": 2,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_152-3041-0926-901_model3?policy=product-large"
+        },
+        {
+          "id": 3,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_152-3041-0926-901_model4?policy=product-large"
+        },
+        {
+          "id": 4,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_152-3041-0926-901_prod1?policy=product-large"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Linen-Blend Notch-Neck Set Top",
+      "brand": "Celine",
+      "price": 168,
+      "images": [
+        {
+          "id": 1,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_140-3216-1470-810_prod1?policy=product-large"
+        }
+      ],
+      "type": "t-shirt",
+      "sizes": [
+        "S",
+        "M",
+        "XL"
+      ],
+      "new": true
+    },
+    {
+      "id": 2,
+      "title": "Long-Sleeve Ruched Wrap Bodysuit",
+      "brand": "Abercrombie",
+      "price": 150,
+      "type": "t-shirt",
+      "images": [
+        {
+          "id": 1,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_139-3483-1179-101_model2?policy=product-large"
+        },
+        {
+          "id": 2,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_139-3483-1179-101_model4?policy=product-large"
+        },
+        {
+          "id": 3,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_139-3483-1179-101_model1?policy=product-large"
+        },
+        {
+          "id": 4,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_139-3483-1179-101_model5?policy=product-large"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "M",
+        "L"
+      ],
+      "new": true
+    },
+    {
+      "id": 17,
+      "title": "Essential Mini Sunday Mock Full-Zip",
+      "brand": "Abercrombie",
+      "type": "top",
+      "price": 40,
+      "images": [
+        {
+          "id": 1,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_152-3045-0927-112_model2?policy=product-large"
+        },
+        {
+          "id": 2,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_152-3045-0927-112_model3?policy=product-large"
+        },
+        {
+          "id": 3,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_152-3045-0927-112_model4?policy=product-large"
+        },
+        {
+          "id": 4,
+          "img": "https://img.abercrombie.com/is/image/anf/KIC_152-3045-0927-112_prod1?policy=product-large"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
     }
   ]
 }

@@ -40,10 +40,7 @@ const Register = () => {
                         ...res.data.user,
                         token:res.data.accessToken
                     }
-
                 ))
-
-
             })
             .catch((err)=>alert(err))
     }

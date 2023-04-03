@@ -8,15 +8,16 @@ import {accordionData} from "./Accordion/accordioninfo";
 import ItemSwiper from "./ItemSwiper/ItemSwiper";
 import ItemLike from "./ItemBot/ItemLike/ItemLike";
 import ItemSup from "./ItemBot/ItemSup/ItemSup";
-import {addToCart} from "../../redux/reducers/users";
+import {addToCart} from "../../redux/reducers/cart"
+import axios from "axios";
+
 
 const Item = () => {
 
     const dispatch = useDispatch()
     const params = useParams()
-    const {product, status, error} = useSelector((store)=>store.oneItem)
-    const {cart} = useSelector((store)=>store.users)
-
+    const {product} = useSelector((store)=>store.oneItem)
+    const {data} = useSelector(store=> store.cart)
 
     useEffect(()=>{
             dispatch(getOneItem(params.id))
@@ -24,9 +25,19 @@ const Item = () => {
         },[])
 
 
-    const handleAddToCart = () => {
-        dispatch(addToCart(product));
-    };
+    const handleAddToCart = (product)=>{
+        data.map((item)=>{
+            if (product.id !== item.id){
+                axios.post('http://localhost:4444/cart', product)
+                    .then((res)=>{
+                        dispatch(addToCart(product))
+                    })
+                    .catch((err)=>console.log(err))
+            }
+        })
+
+    }
+
 
 
 
@@ -53,13 +64,13 @@ const Item = () => {
                                 <option selected disabled>Size</option>
                                 {
                                     product.sizes?.map((item)=>(
-                                        <option key={item.id}>{item.size}</option>
+                                        <option key={item.id}>{item}</option>
                                     ))
                                 }
                             </select>
 
                             <div className="item__btns">
-                                <button onClick={handleAddToCart}  type="button" className="item__btn">В КОРЗИНУ</button>
+                                <button onClick={()=>handleAddToCart(product)}  type="button" className="item__btn">В КОРЗИНУ</button>
                                 <button  type="button" className="item__btn-white">В ИЗБРАННОЕ</button>
                             </div>
 

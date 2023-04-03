@@ -43,6 +43,7 @@
   },
   "cart": {
     "yourorder": "Your order"
-  }
+  },
+  "notfound": "PAGE IS NOT FOUND"
 }
 

@@ -21,10 +21,10 @@
     row-gap: 100px;
   }
   &__left{
-width: 50%;
+width: 40%;
   }
   &__right{
-    width: 50%;
+    width: 60%;
 
   }
 
@@ -89,7 +89,7 @@ width: 50%;
     &::before{
       content:url("../assets/heart.svg");
       position: absolute;
-      left:58%;
+      left:50%;
       top: 54%;
       transform: translate(0, -50%);
     }
@@ -127,4 +127,27 @@ width: 50%;
 .itemswiper__card{
   width: 100%;
   height: 100%;
+}
+
+.swiper-slide-none{
+  opacity: 1 !important;
+  border-radius: 0 0 0px 20px !important;
+}
+
+
+
+.swiper__card{
+  position: relative;
+  &-like{
+    position: absolute;
+    background: #E0BEA2;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

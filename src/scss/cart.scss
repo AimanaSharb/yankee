@@ -10,6 +10,8 @@
       display: flex;
       align-items: center;
       border-bottom: 1px solid #252525;
+      justify-content: space-between;
+      align-items: center;
       padding: 10px 0;
       &-img{
         width: 95px;
@@ -21,8 +23,15 @@
         line-height: 19px;
         color: #252525;
         margin-left: 20px;
+        &-contain{
+          max-width: 120px;
+        }
       }
-
+      &-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
       &-sizes{
         padding: 18px 50px 18px 40px;
         border: 0.5px solid #252525;
@@ -30,20 +39,20 @@
         margin-left: 300px;
       }
       &-price{
-        margin-right: 40px;
         font-weight: 700;
         font-size: 16px;
         line-height: 19px;
         text-align: center;
         color: #252525;
+        max-width: 200px;
 
       }
       &-counter {
         display: flex;
-        margin-right: 200px;
         border: 0.5px solid #252525;
-        padding: 5px 30px 5px 30px;
+        width: 150px;
         align-items: center;
+        justify-content: center;
         column-gap: 20px;
 
       }

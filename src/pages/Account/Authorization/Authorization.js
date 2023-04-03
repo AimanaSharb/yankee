@@ -88,7 +88,7 @@ const Authorization = () => {
                     </div>
 
                 <div className="auth__links">
-                    <Link to={'/register'}>Забыли пароль?</Link>
+                    {/*<Link to={'/register'}>Забыли пароль?</Link>*/}
                     <Link to={'/register'}>Нет аккаунта?</Link>
                 </div>
                 <button type='submit' className="item__btn register__btn">Продолжить</button>

@@ -1,5 +1,6 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import axios from 'axios'
+import {useSelector} from "react-redux";
 
 export const getUsers = createAsyncThunk(
     'users/getUsers',
@@ -16,7 +17,6 @@ export const getUsers = createAsyncThunk(
     }
 
 )
-
 
 
 const usersSlice = createSlice({
@@ -36,19 +36,9 @@ const usersSlice = createSlice({
         logoutAccount:(state, action)=>{
             state.users={
                 email: ''
+
             }
         }
-        // addToCart : (state, action)=>{
-        //     const product = action.payload
-        //
-        //     const index = state.users.cart.findIndex(item => item.id === product.id)
-        //
-        //     if (index === -1) {
-        //         state.users.cart.push(product);
-        //     } else {
-        //         alert('It is already in cart')
-        //     }
-        // }
 
     },
     extraReducers: {
@@ -73,5 +63,5 @@ const usersSlice = createSlice({
 
 
 
-export const {loginAccount, logoutAccount, addToCart} = usersSlice.actions
+export const {loginAccount, logoutAccount} = usersSlice.actions
 export default usersSlice.reducer
